@@ -2,11 +2,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-!pip install plotly
 import plotly.express as px
 import plotly.graph_objects as go
 
-!pip install yfinance
 import yfinance as yf
 import datetime as dttm
 
