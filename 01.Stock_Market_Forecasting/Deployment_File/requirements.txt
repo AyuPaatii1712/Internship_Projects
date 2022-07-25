@@ -5,4 +5,5 @@ plotly==5.9.0
 yfinance==0.1.72
 scikit-learn==1.1.1
 sktime==0.12.1
+prophet==1.1
 holidays==0.14.2
