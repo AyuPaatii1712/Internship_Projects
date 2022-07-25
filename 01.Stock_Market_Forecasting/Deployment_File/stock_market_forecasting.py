@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 import yfinance as yf
 import datetime as dttm
 
-st.set_page_config(page_title='Stock Market Forecasting', page_icon='stock2.jpg')
-st.image('stock2.jpg','Stock Market Forecasting')
+#st.set_page_config(page_title='Stock Market Forecasting', page_icon='stock2.jpg')
+#st.image('stock2.jpg','Stock Market Forecasting')
 st.header('Stock Market Forecasting')
 st.write('---')
 st.sidebar.header('User Input Parameters')
