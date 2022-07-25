@@ -15,7 +15,7 @@ st.write('---')
 st.sidebar.header('User Input Parameters')
 
 ipt = st.sidebar.selectbox( label ="Take Input DataSet From",
-    options=['Yfinance','File'])
+    options=['Yfinance'])
 if ipt == 'Yfinance':
     st.sidebar.write('**1).Stock Name**')
     stick_name = st.sidebar.text_input('Enter the Name of Stock as in yfinance',
